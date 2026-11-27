@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth &amp; Ledger — Household Budget for the Harlowe Family</title>
+<meta name="description" content="A calm, working household budget site: monthly dashboard, transactions, category budgets, savings goals, bills and reports — all offline, all in one place.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <span class="brand-text"><strong>Hearth &amp; Ledger</strong><small>Harlowe household budget</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#/">Dashboard</a>
+      <a href="#/transactions">Transactions</a>
+      <a href="#/budgets">Budgets</a>
+      <a href="#/goals">Goals</a>
+      <a href="#/bills">Bills</a>
+      <a href="#/reports">Reports</a>
+    </nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p><strong>Hearth &amp; Ledger</strong> — a demo household budget for the fictional Harlowe family. Figures are sample data for November 2026, stored only in this browser.</p>
+    <p><button id="reset-data" class="button ghost" type="button">Reset demo data</button></p>
+  </div>
+</footer>
+<script src="format-money.js"></script>
+<script src="budget-data.js"></script>
+<script src="charts.js"></script>
+<script src="render-dashboard.js"></script>
+<script src="render-transactions.js"></script>
+<script src="render-budgets.js"></script>
+<script src="render-goals.js"></script>
+<script src="render-bills.js"></script>
+<script src="render-reports.js"></script>
+<script src="pages.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
